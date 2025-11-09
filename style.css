@@ -3,3 +3,35 @@
   margin: 0;
   padding: 0;
 }
+
+:root {
+  --background-color: #222831;
+  --container-bg-color: #eeeeee;
+  --orange-effect-color: #fd7014;
+  --text-color: #393e46;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: sans-serif, 'Times New Roman';
+  background-color: var(--background-color);
+}
+
+h1 {
+  font-size: 5rem;
+  margin-block: 1rem;
+  font-weight: 600;
+  color: var(--orange-effect-color);
+}
+
+h3 {
+  color: var(--container-bg-color);
+  margin-block: 2rem;
+}
+
+p {
+  color: var(--text-color);
+}
