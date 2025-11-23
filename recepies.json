@@ -1,0 +1,8 @@
+{
+  "recepies": {
+    "title": "tomatsoppa",
+    "desciption": "this is a tomatosoup",
+
+    "ingredients": ["tomatoes", "water", "something else"]
+  }
+}

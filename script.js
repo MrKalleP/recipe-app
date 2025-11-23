@@ -1,12 +1,22 @@
 const newRecipeContainer = document.getElementById('newRecipe-container');
 
-console.log(newRecipeContainer);
+const newRecipe = document.createElement('section');
 
-const newRecipe = document.createElement('div');
+async function GetRecepies() {
+  try {
+    const data = await fetch('./recepies.json');
+    const returnData = await data.json();
+    console.log(returnData);
+
+    return returnData;
+  } catch (error) {
+    console.log(error, 'its one error here');
+  }
+}
 
 newRecipe.innerHTML = `
 <img src="#"></img>
-<h2>one recipe</h2>
+<h3>ett recept</h3>
 <p>this is a recipe that i am going to change later this is just dummy data </p>
 <ul>
 <li>Butter</li>
