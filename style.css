@@ -9,6 +9,9 @@
   --container-bg-color: #eeeeee;
   --orange-effect-color: #fd7014;
   --text-color: #393e46;
+
+  --border-radius-standard: 0.5rem;
+  --padding-standard: 1.8rem;
 }
 
 body {
@@ -34,4 +37,12 @@ h3 {
 
 p {
   color: var(--text-color);
+}
+
+#newRecipe-container {
+  background-color: var(--container-bg-color);
+  border-radius: var(--border-radius-standard);
+  padding: var(--padding-standard);
+  display: flex;
+  align-content: center;
 }
