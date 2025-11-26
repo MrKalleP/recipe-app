@@ -3,6 +3,18 @@
     "title": "tomatsoppa",
     "desciption": "this is a tomatosoup",
 
-    "ingredients": ["tomatoes", "water", "something else"]
+    "ingredients": ["tomato", "water", "something else"],
+
+    "doThis": ["first do this", "then do This", "after you do this"],
+
+    "forServing": ["you can have this", "and you can have this"],
+
+    "time": 30,
+
+    "difficulty": "hard",
+
+    "otherFacts": ["gluten", "lactos"],
+
+    "img": "img"
   }
 }

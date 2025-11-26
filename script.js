@@ -1,23 +1,22 @@
-const newRecipeContainer = document.getElementById('newRecipe-container');
-
-const newRecipe = document.createElement('section');
-
 async function GetRecepies() {
+  const newRecipeContainer = document.getElementById('newRecipe-container');
+
+  const newRecipe = document.createElement('section');
+
   try {
     const data = await fetch('./recepies.json');
     const returnData = await data.json();
-    console.log(returnData);
-
     return returnData;
   } catch (error) {
     console.log(error, 'its one error here');
   }
-}
 
-newRecipe.innerHTML = `
-<img src="#"></img>
-<h3>ett recept</h3>
-<p>this is a recipe that i am going to change later this is just dummy data </p>
+  for (let i = 0; i < returnData.length; i++) {
+    const recepieData = returnData[i];
+    newRecipe.innerHTML = `
+<img src="#">${recepieData.img}</img>
+<h3>${recepieData.title}</h3>
+<p></p>
 <ul>
 <li>Butter</li>
 <li>egg</li>
@@ -25,5 +24,8 @@ newRecipe.innerHTML = `
 <li>all purpose flower</li>
 </ul>
 `;
+    newRecipeContainer.appendChild(newRecipe);
+  }
+}
 
-newRecipeContainer.appendChild(newRecipe);
+GetRecepies();
