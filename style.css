@@ -28,6 +28,8 @@ body {
   justify-content: flex-start;
   font-family: sans-serif, 'Times New Roman';
   background-color: var(--background-color);
+  letter-spacing: 0.05em;
+  line-height: 1.6rem;
 }
 
 h1 {
@@ -48,6 +50,7 @@ img {
 h3 {
   color: var(--orange-effect-color);
   font-size: var(--font-size-heading-three);
+  margin-block: var(--padding-standard);
 }
 
 p {

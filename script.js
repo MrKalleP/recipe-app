@@ -20,7 +20,11 @@ async function GetRecepies() {
 <li>${[...recepieData.ingredients]}</li>
 <li>${[...recepieData.doThis]}</li>
 <li>${[...recepieData.forServing]}</li>
-<li>all purpose flower</li>
+</ul>
+<ul>
+<li>${[...recepieData.otherFacts]}</li>
+<li>${recepieData.time}</li>
+<li>${recepieData.difficulty}</li>
 </ul>
 `;
       newRecipeContainer.appendChild(newRecipe);
