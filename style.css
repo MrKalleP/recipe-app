@@ -59,11 +59,19 @@ li {
   font-size: var(--font-size-li);
 }
 
+ul {
+  padding: var(--padding-standard);
+}
+
 #newRecipe-container {
   background-color: var(--container-bg-color);
   border-radius: var(--border-radius-standard);
   padding: var(--padding-standard);
   display: flex;
   align-content: center;
+  justify-content: center;
   box-shadow: var(--box-shadow-standard);
+  gap: 2.4rem;
+  flex-wrap: wrap;
+  margin: 0.5rem;
 }

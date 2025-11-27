@@ -1,20 +1,26 @@
 {
-  "recepies": {
-    "title": "tomatsoppa",
-    "desciption": "this is a tomatosoup",
-
-    "ingredients": ["tomato", "water", "something else"],
-
-    "doThis": ["first do this", "then do This", "after you do this"],
-
-    "forServing": ["you can have this", "and you can have this"],
-
-    "time": 30,
-
-    "difficulty": "hard",
-
-    "otherFacts": ["gluten", "lactos"],
-
-    "img": "img"
-  }
+  "recepies": [
+    {
+      "title": "tomatsoppa",
+      "description": "this is a tomatosoup",
+      "ingredients": ["tomato", "water", "something else"],
+      "doThis": ["first do this", "then do This", "after you do this"],
+      "forServing": ["you can have this", "and you can have this"],
+      "time": 30,
+      "difficulty": "hard",
+      "otherFacts": ["gluten", "lactose"],
+      "img": "#"
+    },
+    {
+      "title": "kyckling något",
+      "description": "this is a kyckling något",
+      "ingredients": ["tomato", "water", "something else again"],
+      "doThis": ["first do this", "then do This", "after you do this"],
+      "forServing": ["you can have this", "and you can have this"],
+      "time": 30,
+      "difficulty": "hard",
+      "otherFacts": ["gluten", "lactose"],
+      "img": "#"
+    }
+  ]
 }
