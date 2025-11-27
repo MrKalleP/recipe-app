@@ -9,7 +9,7 @@
       "time": 30,
       "difficulty": "hard",
       "otherFacts": ["gluten", "lactose"],
-      "img": "#"
+      "img": "/assets/plate.jpg"
     },
     {
       "title": "kyckling något",
@@ -20,7 +20,7 @@
       "time": 30,
       "difficulty": "hard",
       "otherFacts": ["gluten", "lactose"],
-      "img": "#"
+      "img": "/assets/plate.jpg"
     }
   ]
 }

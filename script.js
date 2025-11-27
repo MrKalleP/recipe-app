@@ -13,7 +13,7 @@ async function GetRecepies() {
       const newRecipe = document.createElement('section');
 
       newRecipe.innerHTML = `
-<img src="${recepieData.img} alt=${recepieData.title}">
+<img src="${recepieData.img}">
 <h3>${recepieData.title}</h3>
 <p>${recepieData.description}</p>
 <ul>

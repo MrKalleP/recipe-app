@@ -21,12 +21,11 @@
 }
 
 body {
-  height: 100vh;
-  height: 100dvh;
+  min-height: 100dvh;
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
   font-family: sans-serif, 'Times New Roman';
   background-color: var(--background-color);
 }
@@ -43,6 +42,7 @@ img {
   height: auto;
   aspect-ratio: 1/1;
   object-fit: cover;
+  border-radius: var(--border-radius-standard);
 }
 
 h3 {
